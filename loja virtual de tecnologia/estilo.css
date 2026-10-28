@@ -1,0 +1,64 @@
+
+
+
+/*estilo do header*/
+
+:root{
+--cor-botaocadastrar-links: black;
+--cor-texto:white;
+--cor-fundo:white;
+-cor-botaoentrar:grey;
+--cor-hover-botao-links:rgb(221, 217, 217);
+
+
+--fonte-size-titulos:25px;
+--fonte-size-geral:16px;
+
+--fonte-weigth-links:600;
+--fonte-weigth-botoes:400;
+
+--border-radius-botao:15px;
+--border-radius-links:8px;
+
+--transition-timing: 0.2s ease; /*a rever...*/
+
+
+
+}
+
+/* resete em tds os elementos*/
+
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a{ text-decoration: none;}
+
+li{list-style: none;}
+
+button{
+    background-color: none;
+    border: none;
+    cursor: pointer;/*elem clicavel*/
+}
+
+img,ion-icon, buttom,a{display: block;}
+
+span{display: inline-block;} /*contagem do carrinho de compra*/
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    overscroll-behavior: contain;
+}
+
+input{
+    display: block;
+    width: 100%;
+}
+
+body{
+  background-color: var(--cor-fundo) ; 
+}
